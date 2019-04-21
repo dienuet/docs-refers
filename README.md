@@ -11,3 +11,4 @@
 - From blind XXE to root-level file read access : https://www.honoki.net/category/websec/
 - Hacking-Resources : https://www.torontowebsitedeveloper.com/hacking-resources
 - OSCP Guide : https://sushant747.gitbooks.io/total-oscp-guide/list_of_common_ports.html
+- RCE in Hubspot with EL injection in HubL : https://www.betterhacker.com/2018/12/rce-in-hubspot-with-el-injection-in-hubl.html
