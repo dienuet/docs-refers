@@ -12,3 +12,4 @@
 - Hacking-Resources : https://www.torontowebsitedeveloper.com/hacking-resources
 - OSCP Guide : https://sushant747.gitbooks.io/total-oscp-guide/list_of_common_ports.html
 - RCE in Hubspot with EL injection in HubL : https://www.betterhacker.com/2018/12/rce-in-hubspot-with-el-injection-in-hubl.html
+- Account Takeover Using Cross-Site WebSocket Hijacking (CSWH) : https://medium.com/@sharan.panegav/account-takeover-using-cross-site-websocket-hijacking-cswh-99cf9cea6c50
