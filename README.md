@@ -14,3 +14,4 @@
 - RCE in Hubspot with EL injection in HubL : https://www.betterhacker.com/2018/12/rce-in-hubspot-with-el-injection-in-hubl.html
 - Account Takeover Using Cross-Site WebSocket Hijacking (CSWH) : https://medium.com/@sharan.panegav/account-takeover-using-cross-site-websocket-hijacking-cswh-99cf9cea6c50
 - Facebook bug bounty writeup : https://philippeharewood.com/facebookbugbounties.txt
+- AD Pentest: https://scriptdotsh.com/index.php/2018/06/09/active-directory-penetration-dojo-setup-of-ad-penetration-lab-part-1/
