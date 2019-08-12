@@ -16,3 +16,4 @@
 - Facebook bug bounty writeup : https://philippeharewood.com/facebookbugbounties.txt
 - AD Pentest: https://scriptdotsh.com/index.php/2018/06/09/active-directory-penetration-dojo-setup-of-ad-penetration-lab-part-1/
 - Places of Interest in Stealing NetNTLM Hash : https://osandamalith.com/2017/03/24/places-of-interest-in-stealing-netntlm-hashes/
+- WK Notes: SMB Enumeration Checklist : https://0xdf.gitlab.io/2018/12/02/pwk-notes-smb-enumeration-checklist-update1.html
