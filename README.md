@@ -18,3 +18,4 @@
 - Places of Interest in Stealing NetNTLM Hash : https://osandamalith.com/2017/03/24/places-of-interest-in-stealing-netntlm-hashes/
 - PWK Notes: SMB Enumeration Checklist : https://0xdf.gitlab.io/2018/12/02/pwk-notes-smb-enumeration-checklist-update1.html
 - SSRF and DNS Rebinding : https://geleta.eu/2019/my-first-ssrf-using-dns-rebinfing/
+- KEYHACKS : https://github.com/streaak/keyhacks
