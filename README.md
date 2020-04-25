@@ -19,3 +19,4 @@
 - PWK Notes: SMB Enumeration Checklist : https://0xdf.gitlab.io/2018/12/02/pwk-notes-smb-enumeration-checklist-update1.html
 - SSRF and DNS Rebinding : https://geleta.eu/2019/my-first-ssrf-using-dns-rebinfing/
 - KEYHACKS : https://github.com/streaak/keyhacks
+- Bypassing Web-Application Firewalls by abusing SSL/TLS : https://blog.pwn.al/waf/bypass/ssl/2018/07/02/web-application-firewall-bypass.html
