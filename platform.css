@@ -1,0 +1,549 @@
+.noColumnHeader th
+{
+    display: none  !important; 
+}
+
+.noBorder {
+    border: 0px  !important;
+}
+
+.noBackground {
+    background-color: transparent  !important;
+}
+
+.AFNoteWindowCone { 
+    display: none  !important;
+}
+
+.AFNoteWindowConeBL { 
+    display: none  !important;
+}
+
+/* Used by the CreateTrains1 DC to selectively remove the border around center 
+of the decorative box when in train mode*/
+af|decorativeBox.NoBorder::frame{ 
+    border:none;     
+}
+
+/* These are all used by the InfoTile DC */
+HTML .InfoTileComp {
+  overflow: hidden;
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+HTML .InfoTileCompHorizontalInner {
+  overflow: hidden;
+  position: relative;
+  display: block;
+  height: 100%;
+}
+
+HTML .InfoTileItemV {
+  border-radius: 3px;
+  padding: 10px 30px 10px 10px;
+  border: 1px solid #d6dfe6;
+  background: #ffffff;
+  color: #333333;
+  margin-bottom: 10px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+HTML .InfoTileItemV.p_AFSelected {
+  border-color: #0572ce;
+}
+
+HTML .InfoTileItemH {
+  border-radius: 3px;
+  border: 1px solid #d6dfe6;
+  background: #ffffff;
+  color: #333333;
+  height: 95%;
+  margin-right: 10px;
+  padding: 10px 10px 30px 10px;
+  display: inline-block;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  position: relative;
+  overflow: hidden ;
+  float: left;
+}
+
+HTML .InfoTileItemH.p_AFSelected {
+  border-color: #0527ce;
+}
+
+
+HTML .InfoTileItemH:last-child {
+  margin-right: 0px;
+}
+
+.InfoTileSelectorV {
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  width: 20px;
+  background: #f0f0f0;
+  position: absolute;
+  z-index: 1;
+}
+
+.InfoTileSelectorH {
+  bottom: 0px;
+  left: 0px;
+  height: 20px;
+  width: 100%;
+  background: #f0f0f0;
+  position: absolute;
+  z-index: 1;
+}
+
+.InfoTileSelectorV.p_AFSelected {
+  background: #0572ce;
+}
+
+.InfoTileSelectorH.p_AFSelected {
+  background: #0572ce;
+}
+
+.InfoTileSelIcon {
+  display: block;
+  position:absolute;
+  outline-width: 1px;
+}
+
+.InfoTileSelIcon:hover {
+  background: #f7f8f9;
+}
+
+.InfoTileSelectorV.p_AFSelected .InfoTileSelIcon:hover{
+  background: #0572ce;
+}
+
+.InfoTileSelectorH.p_AFSelected .InfoTileSelIcon:hover{
+  background: #0572ce;
+}
+
+.InfoTileSelIcon:hover:active {
+  background: #0572ce;
+}
+
+.InfoTileSelectorV .InfoTileSelIcon {
+  height: 100%;
+  width: 20px;
+}
+
+.InfoTileSelectorH .InfoTileSelIcon {
+  width: 100%;
+  height: 20px;
+}
+
+.InfoTileSelIcon > img {
+  width: 20px;
+  height: 20px;
+  padding: 0px;
+  position: absolute;
+}
+
+.InfoTileSelectorV .InfoTileSelIcon > img {
+  top: 50%;
+  margin-top: -10px;
+}
+
+.InfoTileSelectorH .InfoTileSelIcon > img {
+  left: 50%;
+  margin-left: -10px;
+  margin-top: 0px;
+  top: 0px;
+}
+
+
+.hideHeaderLine  af|panelHeader::content0 {
+    border-top: none ;
+    
+}
+
+.hideToolbarLine  af|toolbar::body{
+    border-top: none;
+    border-bottom: none;
+    
+}
+
+af|showDetailHeader::content1,  af|showDetailHeader::content2 {
+    border-top: none;
+    
+}
+
+
+
+af|panelTabbed::body {
+
+border-bottom: none;
+border-left: none;
+border-right: none;
+
+}
+
+
+.blueTextButton  af|commandToolbarButton::text{
+    color: #0572ce;
+
+}
+
+af|commandToolbarButton:disabled::text{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight; bold;
+  color: #9E9E9E;
+  text-align: center;
+}
+
+.whiteTextButton  af|button::text {
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: bold;
+font-size: 12px;
+color: #FFFFFF;
+text-align: center;
+text-shadow: none;
+}
+
+.whiteTextButton  af|commandToolbarButton::text {
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: bold;
+font-size: 12px;
+color: #FFFFFF;
+text-align: center;
+text-shadow: none;
+}
+
+
+.fingerTab af|panelTabbed::body {
+
+border-bottom: none;
+border-left: 1px solid #D9DFE3;
+border-right: none; 
+
+}
+
+
+/*
+af|commandToolbarButton:disabled::text{
+    color: blue;
+    font-size: large;
+    font-style: italic;
+} */
+
+
+
+.typ {
+font-family:Arial;font-size:16px;	
+}
+.dbIconAlign {
+    valign:stretch;
+	display:block;
+	margin:auto;
+}
+.dbIconSize {
+  width: 215px;
+  height: 166px;
+}
+
+.dbBoxStyle {
+	height:266px;
+	width:215px;
+	border:#E7E7E9 solid 1px;
+}
+
+.dbClickableBox {
+	width:215px;height:166px;
+	margin:auto;
+}
+
+.dbBoxTitle {
+        padding-top:15px;
+        padding-left:15px;
+        padding-right:15px;
+        font-weight:bold;
+        color:#FFF;
+}
+
+.dbBoxDesc {
+        padding-top:5px;
+        padding-left:15px;
+        padding-right:15px;
+        color:#FFF;
+}
+
+.dbTitleBoldSmall {
+	font-weight:bold;
+	color:#000;
+	font-size:14px;
+}
+.dbTitleBold {
+	font-weight:bold;
+	color:#000;
+	font-size:16px;
+}
+.dbDescText {
+	color:#000;
+	font-size:16px;
+}
+.dbDescTextSmall {
+	color:#000;
+	font-size:14px;
+}
+
+.dbBoxNumber {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color:#D20000;
+  position: absolute;
+  left: 145px;
+  top: -235px;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
+
+.dbBoxNumberLarge {
+  border-radius: 50%;
+  width: 40px;
+  height: 35px;
+  background-color:#D20000;
+  position: absolute;
+  left: 145px;
+  top: -235px;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
+
+.dbBoxNumber:rtl {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color:#D20000;
+  position: absolute;
+  right:145px;
+  top: -235px;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
+
+.dbBoxNumberLarge:rtl {
+  border-radius: 50%;
+  width: 40px;
+  height: 35px;
+  background-color:#D20000;
+  position: absolute;
+  right:145px;
+  top: -235px;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
+
+.accessRequestCount {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color:#D20000;
+    position: absolute;
+    left: -25px;
+    top: -10px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+
+.purpleTile {
+	background-color:#8E7DB8;
+}
+.blueTile {
+	background-color:#47BBE8;
+}
+.yellowTile {
+	background-color:#F8BB48;
+}
+.greenTile {
+	background-color:#B3CE5B;
+}
+
+.greencolorButton.greencolorButton1.greencolorButton2{
+      border-color: #00972b;
+      color: white;
+      background-color: #00822e;
+      border-style: solid; 
+      border-width: 1.0px;
+      background-image: none !important;
+      background-repeat: repeat;
+      text-shadow: none !important;
+}
+
+.boldLink {
+    font-weight: bold;
+}
+.boldAppLink {
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    font-size: 1.1em;
+}
+
+.normalAppLink {
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    font-size: 1.1em;
+}
+
+/* These are required for header of IDM UI Shell */
+.AFBrandingBar af|navigationPane-bar {
+    padding-top: 0px;
+}
+
+.AFBrandingBar af|navigationPane-bar::link {
+    padding-top: 4px;
+}
+
+.AFBrandingBar af|statusIndicator {
+    padding: 0px 0px 0px 0px;
+}
+
+.AFBrandingBar af|navigationPane-buttons::link {
+  -tr-rule-ref: selector(".AFButtonBorder:alias");
+  -tr-rule-ref: selector(".AFButtonBackground:alias");
+  -tr-rule-ref: selector(".AFButtonForeground:alias");
+  padding: 5px 7px 5px 7px;
+  display: inline-block;
+  margin-top: 3px;
+}
+
+.AFBrandingBar af|navigationPane-buttons::link:hover {
+  -tr-rule-ref: selector(".AFButtonForegroundHover:alias");
+  -tr-rule-ref: selector(".AFButtonBorderHover:alias");
+  -tr-rule-ref: selector(".AFButtonBackgroundHover:alias");
+  text-decoration: none;
+  padding: 5px 7px 5px 7px;
+  display: inline-block;
+  margin-top: 3px;
+}
+
+.AFBrandingBar af|navigationPane-buttons::link:depressed,
+.AFBrandingBar af|navigationPane-buttons::link:selected,
+.AFBrandingBar af|navigationPane-buttons::link:selected:active {
+  -tr-rule-ref: selector(".AFButtonForegroundDepressed:alias");
+  -tr-rule-ref: selector(".AFButtonBorderActive:alias");
+  -tr-rule-ref: selector(".AFButtonBackgroundActive:alias");
+  margin-top: 3px;
+}
+
+.vo_headertextstyle {
+    padding-left: 10px; 
+    font-size: 14px; 
+    font-weight: bold; 
+    color: #333333; 
+    text-align: left;    
+}
+
+.vo_backgroundstyle {
+    padding-top: 15px;
+    padding-left: 15px; 
+    background: #E2EEF4; 
+    border: 1px; 
+    border-style: outset; 
+    border-color: #D5E6F0;    
+}
+
+.vo_messagetextstyle {
+    font-size:14px; 
+    font-weight: normal; 
+    color: #333333; 
+    text-align: left; 
+    padding-left:5px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.roletrainstyle {
+    text-align: left;
+        overflow: hidden;
+        left: -20px;
+}
+
+.trainrightbuttonsstyle{
+    position:absolute;
+    text-align: left;
+    left:-30px;
+}
+
+/* Start of properties for resizing the LOV dialog */
+af|inputListOfValues {
+  -tr-stretch-search-dialog: true;
+  -tr-stretch-dropdown-table: true;
+  resize: inherit;
+  overflow: auto;
+  width: inherit;
+}
+
+af|inputListOfValues::dialog af|dialog::content-center {
+  -tr-stretch-search-dialog: true;
+  -tr-stretch-dropdown-table: true;
+  min-width: 500px !important;
+  min-height: 700px !important;
+  overflow: auto;
+}
+
+af|inputComboboxListOfValues {
+  -tr-stretch-search-dialog: true;
+  -tr-stretch-dropdown-table: true;
+  resize: inherit;
+  overflow: auto;
+  width: inherit;
+}
+
+af|inputComboboxListOfValues::dialog af|dialog::content-center {
+  min-width: 550px;
+  min-height: 500px;
+  overflow: auto;
+}
+
+af|selectOneListbox {
+  -tr-stretch-search-dialog: true;
+  -tr-stretch-dropdown-table: true;
+  resize: inherit;
+  overflow: auto;
+  width: inherit;
+}
+
+af|selectOneListbox::dialog af|dialog::content-center {
+  min-width: inherit;
+  min-height: inherit;
+  overflow: auto;
+}
+
+af|dialog {
+  width: 100%:
+  min-width: inherit;
+  min-height: inherit;
+  resize: inherit;
+  overflow: auto;
+}
+
+af|popup {
+  resize: both;
+  overflow: auto;
+  min-width: 600px;
+}
+
+/* End of properties for resizing the LOV dialog */
